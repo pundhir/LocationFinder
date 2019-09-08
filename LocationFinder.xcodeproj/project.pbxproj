@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEAFEF252324FFD400A9A63A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFEF242324FFD400A9A63A /* AppDelegate.swift */; };
+		CEAFEF272324FFD400A9A63A /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFEF262324FFD400A9A63A /* MapScreen.swift */; };
+		CEAFEF2A2324FFD400A9A63A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFEF282324FFD400A9A63A /* Main.storyboard */; };
+		CEAFEF2C2324FFD500A9A63A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFEF2B2324FFD500A9A63A /* Assets.xcassets */; };
+		CEAFEF2F2324FFD500A9A63A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFEF2D2324FFD500A9A63A /* LaunchScreen.storyboard */; };
+		CEAFEF3A2324FFD500A9A63A /* LocationFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFEF392324FFD500A9A63A /* LocationFinderTests.swift */; };
+		CEAFEF452324FFD500A9A63A /* LocationFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFEF442324FFD500A9A63A /* LocationFinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEAFEF362324FFD500A9A63A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAFEF192324FFD400A9A63A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAFEF202324FFD400A9A63A;
+			remoteInfo = LocationFinder;
+		};
+		CEAFEF412324FFD500A9A63A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAFEF192324FFD400A9A63A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAFEF202324FFD400A9A63A;
+			remoteInfo = LocationFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEAFEF212324FFD400A9A63A /* LocationFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAFEF242324FFD400A9A63A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEAFEF262324FFD400A9A63A /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		CEAFEF292324FFD400A9A63A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEAFEF2B2324FFD500A9A63A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEAFEF2E2324FFD500A9A63A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEAFEF302324FFD500A9A63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAFEF352324FFD500A9A63A /* LocationFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAFEF392324FFD500A9A63A /* LocationFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFinderTests.swift; sourceTree = "<group>"; };
+		CEAFEF3B2324FFD500A9A63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAFEF402324FFD500A9A63A /* LocationFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAFEF442324FFD500A9A63A /* LocationFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFinderUITests.swift; sourceTree = "<group>"; };
+		CEAFEF462324FFD500A9A63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEAFEF1E2324FFD400A9A63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFEF322324FFD500A9A63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFEF3D2324FFD500A9A63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEAFEF182324FFD400A9A63A = {
+			isa = PBXGroup;
+			children = (
+				CEAFEF232324FFD400A9A63A /* LocationFinder */,
+				CEAFEF382324FFD500A9A63A /* LocationFinderTests */,
+				CEAFEF432324FFD500A9A63A /* LocationFinderUITests */,
+				CEAFEF222324FFD400A9A63A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEAFEF222324FFD400A9A63A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFEF212324FFD400A9A63A /* LocationFinder.app */,
+				CEAFEF352324FFD500A9A63A /* LocationFinderTests.xctest */,
+				CEAFEF402324FFD500A9A63A /* LocationFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAFEF232324FFD400A9A63A /* LocationFinder */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFEF242324FFD400A9A63A /* AppDelegate.swift */,
+				CEAFEF262324FFD400A9A63A /* MapScreen.swift */,
+				CEAFEF282324FFD400A9A63A /* Main.storyboard */,
+				CEAFEF2B2324FFD500A9A63A /* Assets.xcassets */,
+				CEAFEF2D2324FFD500A9A63A /* LaunchScreen.storyboard */,
+				CEAFEF302324FFD500A9A63A /* Info.plist */,
+			);
+			path = LocationFinder;
+			sourceTree = "<group>";
+		};
+		CEAFEF382324FFD500A9A63A /* LocationFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFEF392324FFD500A9A63A /* LocationFinderTests.swift */,
+				CEAFEF3B2324FFD500A9A63A /* Info.plist */,
+			);
+			path = LocationFinderTests;
+			sourceTree = "<group>";
+		};
+		CEAFEF432324FFD500A9A63A /* LocationFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFEF442324FFD500A9A63A /* LocationFinderUITests.swift */,
+				CEAFEF462324FFD500A9A63A /* Info.plist */,
+			);
+			path = LocationFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEAFEF202324FFD400A9A63A /* LocationFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAFEF492324FFD500A9A63A /* Build configuration list for PBXNativeTarget "LocationFinder" */;
+			buildPhases = (
+				CEAFEF1D2324FFD400A9A63A /* Sources */,
+				CEAFEF1E2324FFD400A9A63A /* Frameworks */,
+				CEAFEF1F2324FFD400A9A63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationFinder;
+			productName = LocationFinder;
+			productReference = CEAFEF212324FFD400A9A63A /* LocationFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEAFEF342324FFD500A9A63A /* LocationFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAFEF4C2324FFD500A9A63A /* Build configuration list for PBXNativeTarget "LocationFinderTests" */;
+			buildPhases = (
+				CEAFEF312324FFD500A9A63A /* Sources */,
+				CEAFEF322324FFD500A9A63A /* Frameworks */,
+				CEAFEF332324FFD500A9A63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAFEF372324FFD500A9A63A /* PBXTargetDependency */,
+			);
+			name = LocationFinderTests;
+			productName = LocationFinderTests;
+			productReference = CEAFEF352324FFD500A9A63A /* LocationFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEAFEF3F2324FFD500A9A63A /* LocationFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAFEF4F2324FFD500A9A63A /* Build configuration list for PBXNativeTarget "LocationFinderUITests" */;
+			buildPhases = (
+				CEAFEF3C2324FFD500A9A63A /* Sources */,
+				CEAFEF3D2324FFD500A9A63A /* Frameworks */,
+				CEAFEF3E2324FFD500A9A63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAFEF422324FFD500A9A63A /* PBXTargetDependency */,
+			);
+			name = LocationFinderUITests;
+			productName = LocationFinderUITests;
+			productReference = CEAFEF402324FFD500A9A63A /* LocationFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEAFEF192324FFD400A9A63A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = rahulpundhir;
+				TargetAttributes = {
+					CEAFEF202324FFD400A9A63A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					CEAFEF342324FFD500A9A63A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CEAFEF202324FFD400A9A63A;
+					};
+					CEAFEF3F2324FFD500A9A63A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CEAFEF202324FFD400A9A63A;
+					};
+				};
+			};
+			buildConfigurationList = CEAFEF1C2324FFD400A9A63A /* Build configuration list for PBXProject "LocationFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEAFEF182324FFD400A9A63A;
+			productRefGroup = CEAFEF222324FFD400A9A63A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEAFEF202324FFD400A9A63A /* LocationFinder */,
+				CEAFEF342324FFD500A9A63A /* LocationFinderTests */,
+				CEAFEF3F2324FFD500A9A63A /* LocationFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEAFEF1F2324FFD400A9A63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAFEF2F2324FFD500A9A63A /* LaunchScreen.storyboard in Resources */,
+				CEAFEF2C2324FFD500A9A63A /* Assets.xcassets in Resources */,
+				CEAFEF2A2324FFD400A9A63A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFEF332324FFD500A9A63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFEF3E2324FFD500A9A63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEAFEF1D2324FFD400A9A63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAFEF272324FFD400A9A63A /* MapScreen.swift in Sources */,
+				CEAFEF252324FFD400A9A63A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFEF312324FFD500A9A63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAFEF3A2324FFD500A9A63A /* LocationFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFEF3C2324FFD500A9A63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAFEF452324FFD500A9A63A /* LocationFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEAFEF372324FFD500A9A63A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAFEF202324FFD400A9A63A /* LocationFinder */;
+			targetProxy = CEAFEF362324FFD500A9A63A /* PBXContainerItemProxy */;
+		};
+		CEAFEF422324FFD500A9A63A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAFEF202324FFD400A9A63A /* LocationFinder */;
+			targetProxy = CEAFEF412324FFD500A9A63A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEAFEF282324FFD400A9A63A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAFEF292324FFD400A9A63A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEAFEF2D2324FFD500A9A63A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAFEF2E2324FFD500A9A63A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEAFEF472324FFD500A9A63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEAFEF482324FFD500A9A63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEAFEF4A2324FFD500A9A63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LocationFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rp.locationfind.LocationFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEAFEF4B2324FFD500A9A63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LocationFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rp.locationfind.LocationFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEAFEF4D2324FFD500A9A63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LocationFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rp.locationfind.LocationFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationFinder.app/LocationFinder";
+			};
+			name = Debug;
+		};
+		CEAFEF4E2324FFD500A9A63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LocationFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rp.locationfind.LocationFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationFinder.app/LocationFinder";
+			};
+			name = Release;
+		};
+		CEAFEF502324FFD500A9A63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LocationFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rp.locationfind.LocationFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocationFinder;
+			};
+			name = Debug;
+		};
+		CEAFEF512324FFD500A9A63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LocationFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rp.locationfind.LocationFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocationFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEAFEF1C2324FFD400A9A63A /* Build configuration list for PBXProject "LocationFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAFEF472324FFD500A9A63A /* Debug */,
+				CEAFEF482324FFD500A9A63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAFEF492324FFD500A9A63A /* Build configuration list for PBXNativeTarget "LocationFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAFEF4A2324FFD500A9A63A /* Debug */,
+				CEAFEF4B2324FFD500A9A63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAFEF4C2324FFD500A9A63A /* Build configuration list for PBXNativeTarget "LocationFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAFEF4D2324FFD500A9A63A /* Debug */,
+				CEAFEF4E2324FFD500A9A63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAFEF4F2324FFD500A9A63A /* Build configuration list for PBXNativeTarget "LocationFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAFEF502324FFD500A9A63A /* Debug */,
+				CEAFEF512324FFD500A9A63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEAFEF192324FFD400A9A63A /* Project object */;
+}
